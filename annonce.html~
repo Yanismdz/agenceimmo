@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Annonce</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,7 +18,6 @@
         <script src="js/vendor/modernizr.js"></script>
         <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
     </head>
-
     <body>
 	<header>
 	    <nav class="top-bar">		<!-- top bar -->
@@ -33,45 +32,80 @@
 		    </div>			
 	    	    <div class="top-bar-right">
 	    		<ul class="menu">
-	    		    <li><a class="globallink" href="#">Acceuil</a></li>
-	    		    <li><a class="globallink" href="annonce.html">Annonce</a></li>
-			    <li><a class="globallink" href="pub.html">Publier une annonce</a></li>
+	    		    <li><a class="globallink" href="index.html">Acceuil</a></li>
+	    		    <li><a class="globallink" href="contact.html">Annonce</a></li>
+	    		    <li><a class="globallink" href="price.html">Publier une annonce</a></li>
 	    		</ul>
 	    	    </div>
 	    	</div>
 	    </nav> <!-- /top bar -->
-	</header>		
-	<section>
-	    <img src="img/photo1.jpg" alt="maison" class="fond">
+	</header>
+	<section class="secan">
+	    <div class="row">
+		<div class="large-4 small-6 columns">
+		    <img src="img/maison.jpg">
+		    <div class="panel">
+			<h5>Villa en plastique</h5>		
+			<div class="row">
+			    <h6 class="subheader small-6 columns">213€</h6>
+			    <a href="description.html" class="subheader small-6 columns">Voir plus</a>
+			</div>
+		    </div>
+		</div>
+		<div class="large-4 small-6 columns">
+		    <img src="img/maison.jpg">
+		    <div class="panel">
+			<h5>2 Enfants a vendre</h5>
+			<div class="row">
+			    <h6 class="subheader small-6 columns">213€</h6>
+			    <a href="description.html" class="subheader small-6 columns">Voir plus</a>
+			</div>
+		    </div>
+		</div>
+		<div class="large-4 small-6 columns">
+		    <img src="img/maison.jpg">
+		    <div class="panel">
+			<h5>Lot de 2 enfant + maison en plastique</h5>
+			<div class="row">
+			    <h6 class="subheader small-6 columns">213€</h6>
+			    <a href="description.html" class="subheader small-6 columns">Voir plus</a>
+			</div>
+		    </div>
+		</div>
+		<div class="large-4 small-6 columns">
+		    <img src="img/maison.jpg">
+		    <div class="panel">
+			<h5>Maison en plastique</h5>
+			<div class="row">
+			    <h6 class="subheader small-6 columns">213€</h6>
+			    <a href="description.html" class="subheader small-6 columns">Voir plus</a>
+			</div>
+		    </div>
+		</div>
+		<div class="large-4 small-6 columns">
+		    <img src="img/maison.jpg">
+		    <div class="panel">
+			<h5>Maison osmanienne</h5>
+			<div class="row">
+			    <h6 class="subheader small-6 columns">213€</h6>
+			    <a href="description.html" class="subheader small-6 columns">Voir plus</a>
+			</div>
+		    </div>
+		</div>
+		<div class="large-4 small-6 columns">
+		    <img src="img/maison.jpg">
+		    <div class="panel">
+			<h5>Cage a poule réabilité</h5>
+			<div class="row">
+			    <h6 class="subheader small-6 columns">213€</h6>
+			    <a href="description.html" class="subheader small-6 columns">Voir plus</a>
+			</div>
+		    </div>
+		</div>
+	    </div>
 	</section>
-	<section class="jumbo">
-	    <h1>NOS ANNONCES A LA UNE</h1>
-	    <h1>&nabla;</h1>
-	</section>
-	<section class="annonce row">
-	    <article class="columns small-10 medium-6 large-3">
-		<img src="img/maison.jpg">
-		<h1>LOL</h1>
-		<p>49 m 2 pièces</p>
-	    </article>
-	    <article class="columns small-10 medium-6 large-3">
-		<img src="img/maison.jpg">
-		<h1>Pavillon</h1>
-		<p>49 m 2 pièces</p>
-	    </article>
-	    <article class="columns small-10 medium-6 large-3">
-		<img src="img/maison.jpg">
-		<h1>Maisonnette</h1>
-		<p>49 m 2 pièces</p>
-	    </article>
-	    <article class="columns small-10 medium-6 large-3">
-		<img src="img/maison.jpg">
-		<h1>Hlm</h1>
-		<p>49 m 2 pièces</p>
-	    </article>
-	</section>
-	<section class="btn">
-	    <a href="annonce.html">VOIR PLUS</button>
+	<section class="btnbtn">
+	    <a href="#" class="btn2">Plus d'annonce</a>
 	</section>
 	<footer class="footer">
 	    <ul class="so">
